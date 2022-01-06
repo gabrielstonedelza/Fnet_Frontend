@@ -14,3 +14,12 @@ a {
 * {
   box-sizing: border-box;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body{
+    @apply bg-[#021922] text-gray-300
+  }
+}
